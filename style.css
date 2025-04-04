@@ -1,25 +1,15 @@
-/* Fonts */
-body {
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
-  background-color: #fffaf5;
-  color: #222;
-}
-
-/* Header */
-.hero {
-  background-color: #fbeee0;
-  padding: 3rem 2rem;
-  text-align: center;
-}
-
 .hero-container {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   gap: 2rem;
+  padding: 2rem 0;
+}
+
+.hero-text {
+  max-width: 480px;
+  text-align: left;
 }
 
 .hero-image .profile-pic {
@@ -33,75 +23,3 @@ body {
 .hero-image .profile-pic:hover {
   transform: scale(1.03);
 }
-
-.hero-text {
-  max-width: 500px;
-  text-align: left;
-}
-
-.hero-text h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-  color: #222;
-}
-
-.hero-text .highlight {
-  color: #cc5a71;
-  font-weight: bold;
-}
-
-.hero-text .caption {
-  font-style: italic;
-  color: #666;
-  margin-bottom: 0.8rem;
-}
-
-.social-links a {
-  margin-right: 12px;
-  text-decoration: none;
-  color: #cc5a71;
-  font-weight: 500;
-  transition: color 0.3s ease;
-}
-
-.social-links a:hover {
-  color: #333;
-}
-
-/* Sections */
-section {
-  padding: 3rem 2rem;
-  max-width: 900px;
-  margin: 0 auto;
-  background-color: #fff;
-  border-radius: 12px;
-  margin-bottom: 2rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-}
-
-section h2 {
-  color: #cc5a71;
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  padding: 1.5rem;
-  background-color: #222;
-  color: #fff;
-  font-size: 0.9rem;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .hero-container {
-    flex-direction: column;
-  }
-
-  .hero-text {
-    text-align: center;
-  }
-}
-
